@@ -27,7 +27,6 @@ This is a sample application designed to illustrate various concepts related to 
 - [Infrastructure Components](#infrastructure-components)
 - [CI/CD Pipeline](#cicd-pipeline)
 - [Monitoring and Observability](#monitoring-and-observability)
-- [Cleanup](https://github.com/LondheShubham153/retail-store-sample-app/blob/main/README.md#step-12-cleanup)
 
 ## Overview
 
@@ -331,14 +330,3 @@ The ArgoCD UI provides:
 kubectl get pods -n retail-store
 kubectl get ingress -n retail-store
 ```
-
-### Step 12: Cleanup
-To delete all resources created by Terraform:
-```
-terraform destroy --auto-approve
-```
-
-<img width="1139" height="439" alt="image" src="https://github.com/user-attachments/assets/5258761a-01c4-49d0-b6f3-997fc10a9f35" />
-
-> [!NOTE]
-> ECR Repositories you need to Delete it from AWS Console Manually.
