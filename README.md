@@ -99,8 +99,6 @@ This repository uses a **dual-branch approach** for different deployment scenari
 - **Updates**: Automatic on code changes
 - **Best for**: Production environments, automated workflows, enterprise deployments
 
-> **📚 For detailed branching strategy, CI/CD setup, and advanced workflows, see [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md)**
-
 ## Getting Started
 
 ### Prerequisites
@@ -195,8 +193,6 @@ git clone https://github.com/LondheShubham153/retail-store-sample-app.git
 > **For Production (GitOps Branch):**
 > - Uses private ECR with automated CI/CD
 > - Requires GitHub Actions setup
-> - See [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md) for complete setup
-
 
 ### Step 4. Deploy Infrastructure with Terraform:
 
