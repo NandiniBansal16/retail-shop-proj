@@ -79,8 +79,6 @@ The Infrastructure Architecture follows cloud-native best practices:
 4. **Deploy Infrastructure**: Run Terraform in two phases (see [Getting Started](#getting-started))
 5. **Access Application**: Get load balancer URL and browse the retail store
 
-**Need advanced GitOps workflow?** See [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md) for automated CI/CD setup.
-
 ## Branch Strategy
 
 This repository uses a **dual-branch approach** for different deployment scenarios:
